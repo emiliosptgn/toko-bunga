@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet"
+    />
+    
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <!-- AlpineJS -->
+    <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    
+    <!-- App -->
+    <script src="src/app.js"></script>
+
+    <!-- Whatsapp -->
+    <a href="https://wa.me/+6289663381487" target="_blank" class="whatsapp-icon">
+      <img src="img/whatsapp.jpg" alt="WhatsApp" width="30" height="30">
+      <button id="btn"></button>
+    </a>
+      
+
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <!-- <a href="#" class="logo">
+        <img src="img/mawar.jpeg.png" alt="" />
+      </a> -->
+      <a href="#" class="navbar-logo">Flower<span>Society</span>. </a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search form end -->
+
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <!-- <img src="img/products/1.jpg.webp" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 1,385,000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/1.jpg.webp" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 1,385,000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/1.jpg.webp" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 1,385,000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div> -->
+      </div>
+      <!-- Shopping Cart end -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Toko <span>Bunga</span> Bandung <span>Society</span></h1>
+        <p>Penuhi kebutuhan Taman Bunga Anda Hanya di Bandung FlowerSociety</p>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang </span>Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/arga.jpeg.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Memilih Outlet Kami</h3>
+          <p>
+            Toko Bunga Bandung Society adalah platform online yang menyediakan
+            berbagai jenis bunga indah untuk memenuhi kebutuhan belanja bunga
+            Anda. Kami berkomitmen untuk memberikan pengalaman berbelanja yang
+            nyaman dan memuaskan bagi pelanggan kami. Dengan fokus pada kualitas
+            dan layanan terbaik, kami siap memenuhi kebutuhan bunga Anda.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Menu Section start -->
+    <section id="menu" class="menu">
+      <h2>Menu <span>Kami</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem error in
+        assumenda magnam ut excepturi.
+      </p>
+
+      <div class="row">
+        <div class="menu-cart">
+          <img
+            src="img/menu/Hand Bouquet.jpg.jpg"
+            alt="Hand Bouquet"
+            class="menu-cart-menu"
+          />
+          <h3 class="menu-cart-title">- Hand Bouquet 1 -</h3>
+          <p class="menu-cart-price">IDR 300.000</p>
+        </div>
+        <div class="menu-cart">
+          <img
+            src="img/menu/Hand Bouquet-2.jpg"
+            alt="Hand Bouquet"
+            class="menu-cart-menu"
+          />
+          <h3 class="menu-cart-title">- Hand Bouquet 2 -</h3>
+          <p class="menu-cart-price">IDR 350.000</p>
+        </div>
+        <div class="menu-cart">
+          <img
+            src="img/menu/Hand Bouquet-3.jpg"
+            alt="Hand Bouquet"
+            class="menu-cart-menu"
+          />
+          <h3 class="menu-cart-title">- Hand Bouquet 3 -</h3>
+          <p class="menu-cart-price">IDR 330.000</p>
+        </div>
+        <div class="menu-cart">
+          <img
+            src="img/menu/Hand Bouquet-4.jpg"
+            alt="Hand Bouquet"
+            class="menu-cart-menu"
+          />
+          <h3 class="menu-cart-title">- Hand Bouquet 4 -</h3>
+          <p class="menu-cart-price">IDR 340.000</p>
+        </div>
+        <div class="menu-cart">
+          <img
+            src="img/menu/Hand Bouquet-5.jpg"
+            alt="Hand Bouquet 5"
+            class="menu-cart-menu"
+          />
+          <h3 class="menu-cart-title">- Hand Bouquet 5 -</h3>
+          <p class="menu-cart-price">IDR 380.000</p>
+        </div>
+        <div class="menu-cart">
+          <img
+            src="img/menu/Hand Bouquet-6.jpg"
+            alt="Hand Bouquet 6"
+            class="menu-cart-menu"
+          />
+          <h3 class="menu-cart-title">- Hand Bouquet 6 -</h3>
+          <p class="menu-cart-price">IDR 375.000</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Products Section start -->
+    <section class="products" id="products" x-data="products">
+      <h2><span>Produk Ung</span>gulan Kami</h2>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/5.jpg.jpg" alt="Products 2" />
+          </div>
+          <div class="product-content">
+            <h3>valentine 1</h3>
+            <div class="product-price">
+              IDR 820.000 <span>IDR 940.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/3.jpg.jpg" alt="Products 2" />
+          </div>
+          <div class="product-content">
+            <h3>valentine 1</h3>
+            <div class="product-price">
+              IDR 820.000 <span>IDR 940.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/4.jpg.jpg" alt="Products 2" />
+          </div>
+          <div class="product-content">
+            <h3>valentine 1</h3>
+            <div class="product-price">
+              IDR 820.000 <span>IDR 940.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/2.jpg.jpeg" alt="Products 2" />
+          </div>
+          <div class="product-content">
+            <h3>valentine 1</h3>
+            <div class="product-price">
+              IDR 820.000 <span>IDR 940.000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2>Kontak <span>Kami </span></h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, magnam.
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!3m2!1sid!2sid!4v1738220425186!5m2!1sid!2sid!6m8!1m7!1sIiux9mf62tXhKyWTmngYiA!2m2!1d-6.880416752035778!2d107.4987476549107!3f124.23586146354896!4f8.846321587409179!5f0.7820865974627469"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <div class="input-group">
+            <i data-feather="message-square"></i>
+            <input type="text" placeholder="pesan" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu Kami</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">FlowerSociety</a>. | &copy; 2025.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Modal Box Item Detail eye start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/2.jpg.jpeg" alt="Produk 2" />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+              accusantium quae, totam officia, consequuntur aliquid quidem,
+              deserunt suscipit eligendi nam ducimus in ea quis. Assumenda!
+            </p>
+            <div class="product-price">IDR <span>IDR 1.950.000</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail eye end -->
+
+    <!-- Feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javasript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
